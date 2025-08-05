@@ -1,0 +1,153 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Welcome container */
+.welcome-container {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+  transition: transform 0.3s ease;
+}
+
+.welcome-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Heading */
+.welcome-container h1 {
+  font-size: 2.5rem;
+  color: #00695c;
+  margin-bottom: 1rem;
+}
+
+/* Image styling */
+.welcome-container img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
+
+/* Tagline text */
+.welcome-container p {
+  font-size: 1.2rem;
+  color: #455a64;
+}
+.amaan-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.amaan-logo {
+  width: 200px;
+  margin: 1.5rem auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.amaan-tagline {
+  font-size: 1.2rem;
+  color: #00796b;
+  margin-top: 0.5rem;
+}
+
+.amaan-section {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.amaan-section h2 {
+  font-size: 1.4rem;
+  color: #004d40;
+  margin-bottom: 0.5rem;
+}
+
+.amaan-section p,
+.amaan-section ul {
+  font-size: 1rem;
+  color: #37474f;
+  line-height: 1.6;
+}
+
+.amaan-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.amaan-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.amaan-footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #90a4ae;
+}
+.about-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fefefe;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+}
+
+.about-container h1 {
+  text-align: center;
+  color: #00695c;
+  margin-bottom: 2rem;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  font-size: 1.4rem;
+  color: #004d40;
+  margin-bottom: 0.5rem;
+}
+
+.about-section p,
+.about-section ul {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.about-footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #607d8b;
+}
