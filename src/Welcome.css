@@ -1,0 +1,42 @@
+/* Base styles */
+.welcome-container {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.welcome-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.welcome-container p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.welcome-container img {
+  max-width: 300px;
+  width: 70%;
+  height: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode styles */
+.dark-mode .welcome-container {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.dark-mode .welcome-container h1 {
+  color: #ffffff;
+}
+
+.dark-mode .welcome-container p {
+  color: #cccccc;
+}
